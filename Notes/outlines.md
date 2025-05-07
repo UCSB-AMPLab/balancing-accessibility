@@ -1,0 +1,21 @@
+Main objective:
+* Generic tools pose significant risks in collaborative historical data projects, especially during the data capture stage. While widely available tools like spreadsheets lower the barrier to participation, they also increase the risk of data inconsistencies, formatting errors, and loss of provenance, problems that often scale with the number of contributors and are hard to correct retrospectively.
+- Effective collaboration requires more than shared access, it demands infrastructure for managing data workflows. This includes clearly defined roles and permissions, transparent roadmaps and backlogs, robust audit trails, and integration with infrastructural components such as cloud storage, automated backups, data recovery mechanisms, and integrity validation systems. Collaboration is both social and technical.
+- Custom tools can embed research data management (RDM) principles directly into project workflows. A well-designed tool can guide contributors, including students and temporary collaborators, by enforcing consistency, validating formats, and embedding RDM best practices. It can also serve as a flexible interface to connect with more robust, federated infrastructures, enhancing the longevity and interoperability of the data.
+- Tailoring a unique tool for each project is not sustainable, but a one-size-fits-all solution is also impractical. Projects vary in scope, data types, team composition, and technical capacity. While Digital Humanities tools like Omeka, Zotero, and Tropy address specific tasks in the data life cycle (e.g., publication, citation management, and data capture), they are not designed for seamless integration into a unified suite.
+- A modular ecosystem of interoperable tools may offer the best compromise. Instead of monolithic platforms or bespoke one-off solutions, we should aim to develop modular, Lego-like tools that can be assembled into flexible workflows. Omeka, Zotero, and Tropy already function this way to an extent, but differences in architecture (e.g., desktop vs. web-based, cloud support, plugin systems) hinder interoperability. Future efforts should prioritize modularity and standards-based integration to make this vision feasible.
+- However, the second section it's still very weak. "A second section proposes solutions to these challenges through tailored, project-specific tools." 
+	- Proof of concept: 
+		- Sondondo Database -> Can be replicated in other contexts.
+		- Data Dashboard -> Descriptive visualizations.
+		- Data Reports -> Standard and non-standard cases for each dataset.
+	- Data capture workflows:
+		- For exhibit -> Capture focus on metadata for interoperability, such as Dublin Core.
+		- For entity recognition -> Centered on persons, biographies, and relations with people and places.
+		- For places analysis -> Centered on places, and events associated with those places. For instance, production chains associated with multiple cities, or how a war event affected different cities.
+	- Minimal data modules:
+		- Places
+		- People
+		- Documents
+		- Events
+	- 
